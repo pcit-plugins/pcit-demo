@@ -13,9 +13,9 @@ inputs:
     description: 'var obj'
     required: true
     default: '{"k1":"v1","k2":"v2"}'
-outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+# outputs:
+#   time: # id of output
+#     description: 'The time we greeted you'
 runs:
   using: 'docker'
   image: 'Dockerfile'
